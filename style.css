@@ -1,0 +1,78 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #7b3fe4, #4a90e2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #ffffff;
+  width: 90%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-top: 0;
+  color: #4a148c;
+}
+
+p {
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#loginBtn {
+  background: #7b3fe4;
+  color: white;
+}
+
+#loginBtn:hover {
+  background: #6a2fd3;
+}
+
+#payBtn {
+  background: #2ecc71;
+  color: white;
+}
+
+#payBtn:disabled {
+  background: #a5d6a7;
+  cursor: not-allowed;
+}
+
+#status {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
